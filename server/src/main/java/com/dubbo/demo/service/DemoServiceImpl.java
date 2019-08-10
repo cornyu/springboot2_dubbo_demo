@@ -7,7 +7,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.alibaba.dubbo.rpc.RpcContext;
 import com.dubbo.api.DemoService;
 
-@Service(interfaceName = "demoServiceImpl")
+//@Service(interfaceName = "demoServiceImpl")
 public class DemoServiceImpl implements DemoService{
 
 	@Override
